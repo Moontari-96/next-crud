@@ -24,7 +24,6 @@ const LoginForm = () => {
     loginAlert('로그인 성공!', '환영합니다.', 'success');
     router.push('/'); // 로그인 후 이동할 경로
   };
-
   const loginAlert = (
     title: string,
     text: string,
